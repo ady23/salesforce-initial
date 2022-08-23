@@ -5,6 +5,7 @@ public class AccountHandler {
         try{
      	 	Account acct = new Account(Name= accountName);
       	 	insert acct;
+		system.debug('123');
 	 		return acct;	
         }
         
